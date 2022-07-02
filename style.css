@@ -1,0 +1,201 @@
+    body {
+        background-color: #393939;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #393939;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        padding: 1% 6%;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    nav img {
+        width: 100px;
+    }
+    
+    .nav-links {
+        flex: 1;
+        text-align: right;
+    }
+    
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 30px 25px;
+        position: relative;
+    }
+    
+    .nav-links ul li a {
+        color: #ff5a09;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .nav-links ul li::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ff5a09;
+        display: block;
+        margin: auto;
+        transition: 1s;
+    }
+    
+    .nav-links ul li:hover::after {
+        width: 100%;
+    }
+    /*-----profile------*/
+    
+    .profile {
+        display: table;
+        justify-content: center;
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .profile h3 {
+        display: table;
+        /* margin: 0 auto; or use auto left/right margin instead of justify-content center */
+        padding: 5px;
+        font-size: 17px;
+        font-weight: 900;
+        background-color: #ff5a09;
+        color: #393939;
+        margin-left: 20px;
+    }
+    
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    h2 {
+        font-size: 13px;
+        font-weight: 100;
+        margin: 0 20px;
+        margin-top: 5px;
+    }
+    
+    .profile p {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-left: 20px;
+        margin-top: 5px;
+        line-height: 15px;
+        text-align: justify
+    }
+    
+    .person {
+        margin-left: 750px;
+    }
+    
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .icons .fa {
+        color: #f44336;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+    }
+    
+    .fa-facebook {
+        color: #f44336;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* Style inputs */
+    
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+    body {
+        background-color: #393939;
+    }
+    
+    .heade {
+        color: #ff5a09;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    form {
+        max-width: 420px;
+        margin: 50px auto;
+    }
+    
+    .feedback-input {
+        color: white;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border: 2px solid #ff5a09;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        outline: 0;
+    }
+    
+    .feedback-input:focus {
+        border: 2px solid #CC4949;
+    }
+    
+    textarea {
+        height: 150px;
+        line-height: 150%;
+        resize: vertical;
+    }
+    
+    [type="submit"] {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        width: 100%;
+        background: #ff5a09;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: all 0.3s;
+        margin-top: -4px;
+        font-weight: 700;
+    }
+    
+    [type="submit"]:hover {
+        background: #f90;
+    }
